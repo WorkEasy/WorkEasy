@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import logoImg         from '../../assets/images/logo.svg'
+import logoImg         from '../../assets/images/logo-c.svg'
 import landingImg      from '../../assets/images/fundo-home.svg'
 import callPerson      from '../../assets/images/icons/icons8-sos.svg'
 import solveProblems   from '../../assets/images/icons/icons8-solucion.svg'
