@@ -33,7 +33,7 @@ O projeto está sendo desenvolvido para a disciplina de PROJETO E DESENVOLVIMENT
 | Versão Mobile: |Versão Desktop: |
 |----------|----------|
 
-## |![example](https://ik.imagekit.io/capitao/Proffy/preview_9WT1Wt2Jz.png)|![example](https://user-images.githubusercontent.com/50463866/89326399-9d26ed80-d660-11ea-923e-c41e7b409a5f.png)|
+## |![example](https://)|![example](https://u.png)|
 
 --- 
 
