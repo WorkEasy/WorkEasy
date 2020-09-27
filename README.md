@@ -1,5 +1,5 @@
 <h2 align="center">
-  <img src="https://img.shields.io/badge/Next%20Level%20Week-%232-blueblack?style=for-the-badge" alt="Nome e edição do evento" />
+  <img src="https://img.shields.io/badge/Work%20Easy-%232-blueblack?style=for-the-badge" alt="Nome e edição do evento" />
 
   <img src="https://img.shields.io/badge/Front End%3F-ok-blueblack?style=for-the-badge" alt="Front-End Ok" />
 
