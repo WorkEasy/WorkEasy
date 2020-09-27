@@ -1,5 +1,5 @@
 <h2 align="center">
-  <img src="https://img.shields.io/badge/Work%20Easy-%232-blueblack?style=for-the-badge" alt="Nome e edição do evento" />
+  <img src="https://img.shields.io/badge/Work%20Easy-v1-blueblack?style=for-the-badge" alt="Nome e edição do evento" />
 
   <img src="https://img.shields.io/badge/Front End%3F-ok-blueblack?style=for-the-badge" alt="Front-End Ok" />
 
@@ -25,15 +25,7 @@ Aplicativo voltado ao trabalhador independente, de modo a unir pessoas que tenha
 
 O projeto está sendo desenvolvido para a disciplina de PROJETO E DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇÃO I (2020.3) .
 
----
 
-## 🖥 Preview 
-
-
-| Versão Mobile: |Versão Desktop: |
-|----------|----------|
-
-## |![example](https://)|![example](https://u.png)|
 
 --- 
 
