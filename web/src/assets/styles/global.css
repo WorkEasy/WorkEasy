@@ -1,0 +1,63 @@
+:root {
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #F5F5F5;
+    --color-primary-light: #a7a8aa;
+    --color-primary: #07070A;
+    --color-primary-dark: #4d6dd6;
+    --color-primary-darker: #4260c2;
+    --color-secondary: #B8FC04ff;
+    --color-whatsapp: #21d83a;
+    --color-whatsapp-dark: #3eb34e;
+    --color-secondary-dark: #92c505ff;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #F5F5F5;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #07070A;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+  
+    font-size: 60%;
+  }
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  html, body, #root{
+      height: 100vh;
+  }
+
+  body{
+      background: var(--color-background);
+  }
+  
+  #root {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+body,
+input,
+button,
+textarea{
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base); 
+}
+
+.container{
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media(min-width:700px){
+    :root{
+        font-size: 62.5%;
+    }
+}
