@@ -1,5 +1,5 @@
 :root {
-    --color-background: #F0F0F7;
+    --color-background: #8d8d86;
     --color-primary-lighter: #F5F5F5;
     --color-primary-light: #a7a8aa;
     --color-primary: #07070A;
@@ -33,6 +33,7 @@
       height: 100vh;
   }
 
+
   body{
       background: var(--color-background);
   }
@@ -48,7 +49,7 @@ input,
 button,
 textarea{
     font: 500 1.6rem Poppins;
-    color: var(--color-text-base); 
+    color: var(--color-primary); 
 }
 
 .container{
