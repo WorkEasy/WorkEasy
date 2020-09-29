@@ -4,6 +4,7 @@ import PageHeader from '../../components/PageHeader';
 import './styles.css';
 
 import warningIcon from '../../assets/images/icons/icons8-warning.svg'
+import Textarea from '../../components/Textarea';
 
 function ProfessionalForm(){
     return(
@@ -19,6 +20,8 @@ function ProfessionalForm(){
                     <Input name="name" label="Nome Completo"/>
                     <Input name="avatar" label="Avatar"/>
                     <Input name="whatsapp" label="WhatsApp"/>
+                    
+                    <Textarea name="bio" label="Descrição"/>
                 </fieldset>
 
                 <fieldset>
