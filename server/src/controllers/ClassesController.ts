@@ -35,9 +35,9 @@ export default class ClassesCoontroler {
                     .whereRaw('`class_schedule`.`from` <= ??', [timeInMinutes])
                     .whereRaw('`class_schedule`.`to` > ??', [timeInMinutes])
             })
-            .where('classes.tipServico', '=', tipServico);
+            .where('classes.tipServico', '=', tipServico)
             .join('users', 'classes.user_id', '=', 'users.id')
-            .select(['classes.*', 'users.*']);
+            .select(['classes.*', 'users.*'])
 
         return response.json(classes);
     }
