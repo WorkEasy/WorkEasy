@@ -1,37 +1,55 @@
 import React from 'react'
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
+import api from '../../services/api';
 import './styles.css';
 
 
-function ProfisionalItem(){
+export interface Professional {
+    id: number;
+    avatar: string;
+    bio: string;
+    cost: number;
+    nome: string;
+    subject: string;
+    whatsapp: string;
+}
+interface ProfisionalItemProps {
+    professional: Professional;
+}
+
+const ProfisionalItem: React.FC<ProfisionalItemProps> = ({ professional }) => {
+    function createNewConnection(){
+        api.post("connections",{
+            user_id:professional.id,
+        })
+    }
     return (
         <article className="professional-item">
-        <header>
-            <img src="https://avatars3.githubusercontent.com/u/26774355?s=460&u=f89b5bfd2d9de7a5477b4e379ef62249340f89fb&v=4" alt="Wellington Rodrigues"/>
-            <div>
-                <strong>Wellington</strong>
-                <span>Eletricista</span>
-            </div>
-        </header>
+            <header>
+                <img src={professional.avatar} alt={professional.nome} />
+                <div>
+                    <strong>{professional.nome}</strong>
+                    <span>{professional.subject}</span>
+                </div>
+            </header>
             <p>
-                Apaixonado por inovações tecnologias.
-                <br/>
-                <br/>
-                Passo o dia no meu computador fazendo tarefas do curso e estudando como sair dele o quanto antes,
-                durante a noite explico para meus pais que a mensagem mais recente dentro do chat de uma pessoa no whats, fica na parte de baixo,
-                porem na tela inicial as conversas mais recentes ficam na parte de cima(topo), isso não faz sentido a eles.  
+                {professional.bio}
             </p>
             <footer>
                 <p>
                     Preço/hora
-                    <strong>R$ 20,00</strong>
+                    <strong>R$ {professional.cost}</strong>
                 </p>
-                <button type="button">
-                    <img src={whatsappIcon} alt="Whatsapp"/>
+                <a 
+                    target="_blank"
+                    onClick={createNewConnection} 
+                    href={`https://wa.me/${professional.whatsapp}`}
+                >
+                    <img src={whatsappIcon} alt="Whatsapp" />
                     Entrar em contato
-                </button>
+                </a>
             </footer>
-    </article>
+        </article>
     );
 }
 

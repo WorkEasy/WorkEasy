@@ -1,4 +1,5 @@
 import React, { FormEvent, useState } from 'react';
+import {useHistory} from 'react-router-dom'
 import Input from '../../components/Input';
 import PageHeader from '../../components/PageHeader';
 import Textarea from '../../components/Textarea';
@@ -10,6 +11,8 @@ import './styles.css';
 import api from '../../services/api';
 
 function ProfessionalForm() {
+    const history = useHistory();
+
     const [name, setName] = useState('')
     const [avatar, setAvatar] = useState('')
     const [whatsapp, setWhatsapp] = useState('')
@@ -54,6 +57,7 @@ function ProfessionalForm() {
             schedule: scheduleItems
         }).then(() => {
             alert('Cadastro realizado com sucesso!')
+            history.push('/')
         }).catch(() => {
             alert("deu errro")
             console.log({

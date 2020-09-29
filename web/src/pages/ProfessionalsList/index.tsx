@@ -1,21 +1,44 @@
-import React from 'react';
+import React, { FormEvent, useState } from 'react';
 import Input from '../../components/Input';
 import PageHeader from '../../components/PageHeader';
-import ProfisionalItem from '../../components/ProfessionalItem';
+import ProfisionalItem, {Professional} from '../../components/ProfessionalItem';
 import Select from '../../components/Select';
+import api from '../../services/api';
 
 
 import './styles.css';
 
 
-function ProfessionalList(){
-    return(
-         <div id="page-professional-list" className="container">
+
+function ProfessionalList() {
+    const [professionals,setProfessionals] = useState([]);
+
+    const [subject, setSubject] = useState('');
+    const [week_day, setWeekday] = useState('');
+    const [time, setTime] = useState('');
+
+    async function seachTeachers(e: FormEvent) {
+        e.preventDefault()
+
+        const response = await api.get('problems', {
+            params: {
+                subject,
+                week_day,
+                time,
+            }
+        });
+        setProfessionals(response.data);        
+    }
+
+    return (
+        <div id="page-professional-list" className="container">
             <PageHeader title="Esses são os profissionais disponiveis">
-                <form id="search-professionals">
-                <Select
-                        name="subject" 
+                <form id="search-professionals" onSubmit={seachTeachers}>
+                    <Select
+                        name="subject"
                         label="Profissão"
+                        value={subject}
+                        onChange={(e) => { setSubject(e.target.value) }}
                         options={[
                             { value: 'Pedreiro', label: 'Pedreiro' },
                             { value: 'Marceneiro', label: 'marceneiro' },
@@ -56,31 +79,43 @@ function ProfessionalList(){
                             { value: 'Telhador(a)  ', label: 'Telhador(a)  ' },
                             { value: 'Vidraceiro De Edificações ', label: 'Vidraceiro De Edificações ' },
                         ]}
-                     />
-                    <Select 
-                        name="week_day" 
+                    />
+                    <Select
+                        name="week_day"
                         label="Dia da semana"
+                        value={week_day}
+                        onChange={(e) => { setWeekday(e.target.value) }}
                         options={[
-                            {value:'0',label:'Domingo'},
-                            {value:'1',label:'Segunda-feira'},
-                            {value:'2',label:'Terça-feira'},
-                            {value:'3',label:'Quarta-feira'},
-                            {value:'4',label:'Quinta-feira'},
-                            {value:'5',label:'Sexta-feira'},
-                            {value:'6',label:'Sabado'},
+                            { value: '0', label: 'Domingo' },
+                            { value: '1', label: 'Segunda-feira' },
+                            { value: '2', label: 'Terça-feira' },
+                            { value: '3', label: 'Quarta-feira' },
+                            { value: '4', label: 'Quinta-feira' },
+                            { value: '5', label: 'Sexta-feira' },
+                            { value: '6', label: 'Sabado' },
                         ]}
                     />
-                    <Input type="time" name="time" label="Hora"/>
+                    <Input
+                        type="time"
+                        name="time"
+                        label="Hora"
+                        value={time}
+                        onChange={(e) => {
+                            setTime(e.target.value) // seachTeachers(e);
+                        }}
+                    />
+                    <button type="submit">
+                        Buscar
+                    </button>
                 </form>
             </PageHeader>
 
             <main>
-               <ProfisionalItem/>
-               <ProfisionalItem/>
-               <ProfisionalItem/>
-               <ProfisionalItem/>
+                {professionals.map((professional:Professional) =>{
+                    return <ProfisionalItem key={professional.id} professional={professional}/>;
+                })}
             </main>
-         </div>    
+        </div>
     )
 }
 
