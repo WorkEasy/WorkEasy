@@ -1,22 +1,20 @@
 :root {
-    --color-background: #8d8d86;
-    --color-primary-lighter: #F5F5F5;
-    --color-primary-light: #a7a8aa;
-    --color-primary: #07070A;
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #71aaf5;
+    --color-primary-light: #6b97ea;
+    --color-primary: #164a57;
     --color-primary-dark: #4d6dd6;
     --color-primary-darker: #4260c2;
-    --color-secondary: #B8FC04ff;
-    --color-whatsapp: #21d83a;
-    --color-whatsapp-dark: #3eb34e;
-    --color-secondary-dark: #92c505ff;
+    --color-secundary: #04D361;
+    --color-secundary-dark: #04BF58;
     --color-title-in-primary: #FFFFFF;
-    --color-text-in-primary: #F5F5F5;
+    --color-text-in-primary: #D4C2FF;
     --color-text-title: #32264D;
     --color-text-complement: #9C98A6;
     --color-text-base: #6A6180;
     --color-line-in-white: #E6E6F0;
     --color-input-background: #F8F8FC;
-    --color-button-text: #07070A;
+    --color-button-text: #FFFFFF;
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
   
@@ -33,7 +31,6 @@
       height: 100vh;
   }
 
-
   body{
       background: var(--color-background);
   }
@@ -49,7 +46,7 @@ input,
 button,
 textarea{
     font: 500 1.6rem Poppins;
-    color: var(--color-primary); 
+    color: var(--color-text-base); 
 }
 
 .container{

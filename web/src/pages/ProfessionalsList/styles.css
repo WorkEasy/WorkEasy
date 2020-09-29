@@ -31,9 +31,7 @@
         position: absolute;
         bottom: -28px;
     }
-    #search-professionals .input-block + .input-block {
-        margin-top: 0;
-    }
+    #search-professionals .input-block + .input-block,
     #search-professionals .select-block + .select-block {
         margin-top: 0;
     }

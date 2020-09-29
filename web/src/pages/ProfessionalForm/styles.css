@@ -39,6 +39,7 @@
 }
 
 #page-professional-form main fieldset legend button{
+    float: right;
     background: none;
     border: 0;
     color: var(--color-primary);
@@ -48,11 +49,7 @@
 }
 
 #page-professional-form main fieldset legend button:hover{
-    color: var(--color-primary-dark);
-}
-
-#page-professional-form main fieldset .input-block + textarea-block{
-    margin-top: 2.4rem;
+    color: var(--color-primary-dark)
 }
 
 #page-professional-form main fieldset .input-block + .textarea-block{
@@ -84,6 +81,7 @@
     line-height: 2.4rem;
     color: var(--color-text-complement);
 }
+
 #page-professional-form main p img{
     margin-right: 2rem;
 }
@@ -91,7 +89,7 @@
 #page-professional-form main footer button{
     width: 100%;
     height: 5.6rem;
-    background:  var(--color-whatsapp);
+    background:  var(--color-secundary);
     color: var(--color-button-text);
     border: 0;
     border-radius: 0.8rem;
@@ -106,7 +104,7 @@
 }
 
 #page-professional-form main footer button:hover{
-    background: var(--color-whatsapp-dark);
+    background: var(--color-secundary-dark);
 }
 
 @media (min-width: 700px){
@@ -122,15 +120,16 @@
         padding: 0 6.4rem;
     }
 
-    #page-professional-form  main .schedule-item {
+    #page-professional-form  main .schedule-item{
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
         column-gap: 1.6rem;
     }
 
-    #page-professional-form  main .schedule-item .input-block {
+    #page-professional-form  main .schedule-item .input-block{
         margin-top: 0 !important;
     }
+
 
     #page-professional-form  main footer{
         padding: 4.0rem 6.4rem;

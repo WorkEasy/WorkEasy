@@ -1,13 +1,23 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import {Link} from 'react-router-dom'
-import logoImg         from '../../assets/images/logo-c.svg'
-import landingImg      from '../../assets/images/fundo-home.svg'
-import callPerson      from '../../assets/images/icons/icons8-sos.svg'
-import solveProblems   from '../../assets/images/icons/icons8-solucion.svg'
-
+import logoImg         from '../../assets/images/logo.svg';
+import landingImg      from '../../assets/images/landing.svg';
+import callPerson      from '../../assets/images/icons/callPerson.png';
+import solveProblems   from '../../assets/images/icons/solveProblems.png';
+import purpleheartIcon from '../../assets/images/icons/purple-heart.svg';
 import './styles.css';
+import api from '../../services/api';
 
 function Landing(){
+    const [totalConnections,setTotalConections]=useState(0);
+
+    useEffect(()=>{
+        api.get('connections').then(response => {
+            const {total} =response.data;     
+            setTotalConections(total)       
+        })
+    },[])
+
     return (
         <div id="page-landing">
             <div id="page-landing-content" className="container">
@@ -25,16 +35,16 @@ function Landing(){
                 <div className="buttons-container">
                      <Link to="/callPerson" className="callPerson">
                          <img src={callPerson} alt="Solicitar ajuda"/>
-                         Solicitar ajuda 
+                         Solicitar uma ajuda 
                      </Link>
                      <Link to="/solveProblems" className="solveProblems">
                          <img src={solveProblems} alt="Solicitar ajuda"/>
-                          Resolver problema
+                          Resolver um problema
                      </Link>
                 </div>
 
                 <span className="total-connections">
-                    Made in Piauí
+                    Total de {totalConnections} conexões já realizadas <img src={purpleheartIcon} alt="Coração roxo"/>
                 </span>
             </div>
         </div>

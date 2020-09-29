@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="586px"
-   height="160px"
-   viewBox="0 0 586 160"
+   width="165.59117mm"
+   height="30.002924mm"
+   viewBox="0 0 165.59117 30.002924"
    version="1.1"
-   id="SVGRoot"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="desenhando.svg">
+   id="svg16"
+   sodipodi:docname="drawing.svg"
+   inkscape:version="0.92.4 (unknown)">
   <defs
-     id="defs1526" />
+     id="defs10" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,64 +25,74 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="247.99203"
-     inkscape:cy="21.082124"
-     inkscape:document-units="px"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="67.200673"
+     inkscape:cy="-10.026181"
+     inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1023"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="1366"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
-     id="metadata1529">
+     id="metadata13">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Camada 1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     style="display:inline"
+     transform="translate(-21.035555,-135.3306)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.29664993px;line-height:1.25;font-family:'Android 101';-inkscape-font-specification:'Android 101, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b8fc04;fill-opacity:1;stroke:none;stroke-width:1.09306216"
-       x="32.203259"
-       y="116.0676"
-       id="text2084"
-       transform="scale(0.9576593,1.0442127)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:RaghuMalayalam;-inkscape-font-specification:RaghuMalayalam;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="26.458332"
+       y="70.214287"
+       id="text20"><tspan
          sodipodi:role="line"
-         id="tspan2082"
-         x="32.203259"
-         y="116.0676"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:84.1251297px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#b8fc04;fill-opacity:1;stroke-width:1.09306216">WORK</tspan></text>
-    <rect
-       style="opacity:1;fill:#b8fc04;fill-opacity:1;fill-rule:nonzero;stroke:#b8fc04;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       id="rect814"
-       width="266.42856"
-       height="120.71429"
-       x="300"
-       y="28.57143"
-       rx="21.4286"
-       ry="21.4286" />
+         id="tspan18"
+         x="26.458332"
+         y="78.023766"
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:'Android 101';-inkscape-font-specification:'Android 101, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       x="321.42856"
-       y="109.28571"
-       id="text818"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:RaghuMalayalam;-inkscape-font-specification:RaghuMalayalam;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="61.232143"
+       y="30.148809"
+       id="text24"><tspan
          sodipodi:role="line"
-         id="tspan816"
-         x="321.42856"
-         y="109.28571"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.66666412px;font-family:'Android 101';-inkscape-font-specification:'Android 101, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">EASY</tspan></text>
+         id="tspan22"
+         x="61.232143"
+         y="37.958286"
+         style="stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.57354546px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.46208665;"
+       x="20.994177"
+       y="152.60612"
+       id="text28"
+       inkscape:transform-center-x="5.0783341"
+       inkscape:transform-center-y="-170.24398"
+       transform="scale(0.96162408,1.0399074)"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         x="20.994177"
+         y="152.60612"
+         style="fill:#ffffff;stroke-width:0.46208665;">Work Easy</tspan></text>
   </g>
 </svg>
