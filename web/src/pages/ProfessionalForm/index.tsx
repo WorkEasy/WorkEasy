@@ -1,10 +1,11 @@
 import React from 'react';
-import Input from '../../components/input';
+import Input from '../../components/Input';
 import PageHeader from '../../components/PageHeader';
 import './styles.css';
 
 import warningIcon from '../../assets/images/icons/icons8-warning.svg'
 import Textarea from '../../components/Textarea';
+import Select from '../../components/Select';
 
 function ProfessionalForm(){
     return(
@@ -20,14 +21,27 @@ function ProfessionalForm(){
                     <Input name="name" label="Nome Completo"/>
                     <Input name="avatar" label="Avatar"/>
                     <Input name="whatsapp" label="WhatsApp"/>
-                    
+
                     <Textarea name="bio" label="Descrição"/>
                 </fieldset>
 
                 <fieldset>
                     <legend>Sobre a aula</legend>
 
-                    <Input name="tipServico" label="Serviço"/>
+                    <Select 
+                        name="tipServico"
+                        label="Serviço"
+                        options={[
+                            { value: 'Predeiro', label: 'Predeiro' },
+                            { value: 'Pintor', label: 'Pintor' },
+                            { value: 'Marceneiro', label: 'Marceneiro' },
+                            { value: 'Eletricista', label: 'Eletricista' },
+                            { value: 'Encanador', label: 'Encanador' },
+                            { value: 'Jardineiro', label: 'Jardineiro' },
+                            { value: 'Suporte técnico', label: 'Suporte técnico' },
+                        ]}
+                    />
+
                     <Input name="custo" label="Custo da sua hora serviço"/>
                 </fieldset>
 
