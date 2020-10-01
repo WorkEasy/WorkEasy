@@ -1,8 +1,8 @@
 <h2 align="center">
   <img src="https://img.shields.io/badge/Work%20Easy-v1-blueblack?color=greenyellow&style=for-the-badge" alt="Nome e edição do evento" />
   <img src="https://img.shields.io/badge/Front End%3F-ok-blueblack?color=greenyellow&style=for-the-badge" alt="Front-End Ok" />
-  <img src="https://img.shields.io/badge/Back End%3F-NO-blueblack?color=greenyellow&style=for-the-badge" alt="Back-End Ok" />
-  <img src="https://img.shields.io/badge/Mobile%3F-ok-blueblack?color=greenyellow&style=for-the-badge" alt="Mobile NO" />
+  <img src="https://img.shields.io/badge/Back End%3F-ok-blueblack?color=greenyellow&style=for-the-badge" alt="Back-End Ok" />
+  <img src="https://img.shields.io/badge/Mobile%3F-ok-blueblack?color=greenyellow&style=for-the-badge" alt="Mobile Ok" />
   <img src="https://img.shields.io/github/license/WorkEasy/WorkEasy?color=black&style=for-the-badge" alt="License" />
 </h2>
 
