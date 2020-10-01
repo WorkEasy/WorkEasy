@@ -34,7 +34,6 @@ O projeto está sendo desenvolvido para a disciplina de PROJETO E DESENVOLVIMENT
 
 # :pushpin: Tabela de Conteúdo
 
-* [Site de Demostração](#eyes-site-de-demostração) 
 * [Tecnologias](#computer-tecnologias)
 * [Funcionalidades](#rocket-funcionalidades)
 * [Como rodar](#construction_worker-como-rodar)
@@ -54,11 +53,6 @@ O projeto está sendo desenvolvido para a disciplina de PROJETO E DESENVOLVIMENT
    <img src="https://github.com/WorkEasy/WorkEasy/blob/master/Img-telas/photo5159388335892965511.jpg" width="180">
    
 
-# :eyes: Site de Demostração
-Você pode acessar o site em construção:     
-👉  demo: https://WorkEasy.netlify.app/ 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b13a4b1-96e1-4ff3-86e3-4c9b981c77cf/deploy-status)](https://app.netlify.com)     
 
 # :computer: Tecnologias
 Esse projeto foi feito utilizando as seguintes tecnologias:
