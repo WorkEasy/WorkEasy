@@ -20,24 +20,26 @@ function TeacherList() {
   const [week_day, setWeekDay] = useState('');
   const [time, setTime] = useState('');
 
-  useEffect(()=>{
-      AsyncStorage.getItem('favorites').then(response => {
-        if (response){
-          const favoritedTeachers = JSON.parse(response);
-          const favoritedTeachersIds = favoritedTeachers.map( (teacher:Professional) => {
+  function loadFavorites() {
+    AsyncStorage.getItem('favorites').then(response => {
+      if (response) {
+        const favoritedTeachers = JSON.parse(response);
+        const favoritedTeachersIds = favoritedTeachers.map((teacher: Professional) => { 
+          return teacher.id;
+        });
 
-          }) ;
-          setFavorites(favoritedTeachersIds);
-        }
-      })
-  },[]);
-
+        setFavorites(favoritedTeachersIds);
+      }
+    });
+  }
 
   function handleToggleFiltersVisible() {
     setIsFilterVisible(!insFiltersVisible)
   }
 
   async function handleFiltersSubmit() {
+    loadFavorites();
+    
     const response = await api.get('problems', {
       params: {
         subject,
