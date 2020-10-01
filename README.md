@@ -1,26 +1,22 @@
 <h2 align="center">
-  <img src="https://img.shields.io/badge/Work%20Easy-v1-blueblack?style=for-the-badge" alt="Nome e edição do evento" />
-
-  <img src="https://img.shields.io/badge/Front End%3F-ok-blueblack?style=for-the-badge" alt="Front-End Ok" />
-
-  <img src="https://img.shields.io/badge/Back End%3F-NO-blueblack?style=for-the-badge" alt="Back-End NO" />
-
-  <img src="https://img.shields.io/badge/Database%3F-ok-blueblack?style=for-the-badge" alt="Database Ok" />
-
-  <img src="https://img.shields.io/github/license/matheusfelipeog/proffy?color=blueviolet&style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Work%20Easy-v1-blueblack?color=greenyellow&style=for-the-badge" alt="Nome e edição do evento" />
+  <img src="https://img.shields.io/badge/Front End%3F-ok-blueblack?color=greenyellow&style=for-the-badge" alt="Front-End Ok" />
+  <img src="https://img.shields.io/badge/Back End%3F-NO-blueblack?color=greenyellow&style=for-the-badge" alt="Back-End Ok" />
+  <img src="https://img.shields.io/badge/Mobile%3F-ok-blueblack?color=greenyellow&style=for-the-badge" alt="Mobile NO" />
+  <img src="https://img.shields.io/github/license/WorkEasy/WorkEasy?color=black&style=for-the-badge" alt="License" />
 </h2>
 
 <p align="center">
-   <img src="https://github.com/WorkEasy/WorkEasy/blob/master/Img-telas/photo5163603438272096481.jpg" alt="WorkEasy" width="280"/>
+   <img src="https://github.com/WorkEasy/WorkEasy/blob/master/Img-telas/photo5163603438272096481.jpg" alt="logo-WorkEasy" width="420"/>
 </p>
 
 
 ## 📖 Sobre 
 
 
-Aplicativo voltado ao trabalhador independente, de modo a unir pessoas que tenham problemas rotineiros e/ou domésticos, com pessoas que trabalhem resolvendo esses problemas - Encanadores, Eletricistas, etc. 
+Aplicação voltada ao trabalhador independente, de modo a unir pessoas que tenham problemas rotineiros e/ou domésticos, com pessoas que trabalhem resolvendo esses problemas - Encanadores, Eletricistas, etc. 
 
-O projeto está sendo desenvolvido para a disciplina de PROJETO E DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇÃO I (2020.3) .
+O projeto está sendo desenvolvido para a disciplina de PROJETO E DESENVOLVIMENTO DE SISTEMAS DE INFORMAÇÃO I (2020.3).
 
 
 
@@ -57,9 +53,9 @@ O projeto está sendo desenvolvido para a disciplina de PROJETO E DESENVOLVIMENT
 # :computer: Tecnologias
 Esse projeto foi feito utilizando as seguintes tecnologias:
 
-* [Typescript](https://www.typescriptlang.org/)      
-* [React](https://reactjs.org/)      
-* [Expo](https://expo.io/)       
+* [Typescript](https://www.typescriptlang.org/)
+* [React](https://reactjs.org/)
+* [Expo](https://expo.io/)
 * [Express](https://expressjs.com/) 
 
 # :rocket: Funcionalidades

@@ -70,11 +70,11 @@
 }
 
 .buttons-container a.solveProblems{
-    background: var(--color-secundary);
+    background: var(--color-botton-home);
 }
 
 .buttons-container a.solveProblems:hover{
-    background: var(--color-secundary-dark);
+    background: var(--color-botton-home-darker);
 }
 
 .buttons-container a img{
